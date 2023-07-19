@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 
 import '../../utils/environment.dart';
 
+
 class ApiConfiguration {
   final String _urlBase = "https://api.weatherapi.com/v1/forecast.json";
   final String _apiKey = Environment.personalKeyWeatherApi;

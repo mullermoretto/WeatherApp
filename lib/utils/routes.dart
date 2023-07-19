@@ -4,7 +4,7 @@ abstract class Routes {
   static String home = "/home/";
 
   static void goToHomePage() {
-    print('Calling Home Page. ');
+    //print('Calling Home Page. ');
     Modular.to.pushNamed(
       Routes.home,
     );

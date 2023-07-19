@@ -7,8 +7,7 @@ import '../../models/weather_forecast/weather_forecast.dart';
 class HomeRepository {
 
   Future<WeatherForecast> fetchWeatherData(String city) async {
-    final dynamic json;
-    json = await ApiConfiguration().getJsonFromCityName(city);
+    final dynamic json = await ApiConfiguration().getJsonFromCityName(city);
     return WeatherForecast(jsonData: json);
   }
 }

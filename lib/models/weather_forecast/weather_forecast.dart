@@ -96,7 +96,7 @@ class WeatherForecast {
       case "Last Quarter":{return "Minguante";}
       case "Waning Crescent":{return "Minguante";}
     }
-    return "";
+    return "Erro";
   }
 
   String getWindDirection(String windDirection) {

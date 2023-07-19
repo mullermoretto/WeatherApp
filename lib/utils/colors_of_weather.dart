@@ -2,6 +2,7 @@
 import 'dart:ui';
 
 abstract class ColorsWeather {
+
   static Color cloudyDay = const Color(0xFFB0C4DE);
   static Color rainyDay = const Color(0xFF708090);
   static Color windyDay = const Color(0xFF4682B4);
@@ -12,4 +13,5 @@ abstract class ColorsWeather {
   static Color windyNight = const Color(0xFF778899);
   static Color clearNight = const Color(0xFF191970);
   static Color snowNight = const Color(0xFFA9A9A9);
+
 }

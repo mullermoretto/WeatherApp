@@ -5,6 +5,7 @@ import 'package:weather/presentation/home/home_page.dart';
 import 'package:weather/presentation/home/home_repository.dart';
 
 class HomeModule extends Module {
+
   @override
   List<Bind<Object>> get binds => [
     Bind.singleton((i) => HomeController(repository: i.get())),

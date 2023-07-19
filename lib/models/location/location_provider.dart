@@ -36,11 +36,11 @@ class LocationProvider {
   void getActualCity() async {
 
     await getCityFromLocation();
-    if (_city != null) {
-      print('Cidade atual: $_city');
-    } else {
-      print('Não foi possível obter a cidade.');
-    }
+    // if (_city != null) {
+    //   print('Cidade atual: $_city');
+    // } else {
+    //   print('Não foi possível obter a cidade.');
+    // }
   }
   
 }

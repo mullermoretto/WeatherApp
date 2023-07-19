@@ -1,5 +1,3 @@
-
-
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:weather/presentation/home/home_module.dart';
 import 'package:weather/utils/routes.dart';

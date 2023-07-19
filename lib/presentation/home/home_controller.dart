@@ -21,8 +21,8 @@ abstract class _HomeController with Store {
   bool isLoading = false;
 
   Future<void> getWeather() async {
-    String city = await LocationProvider().getCityFromLocation();
     isLoading = true;
+    String city = await LocationProvider().getCityFromLocation();
     weatherForecast = await repository.fetchWeatherData(city == "" ? "Itu": city);
     weatherForecast?.setColorWeather();
     isLoading = false;
